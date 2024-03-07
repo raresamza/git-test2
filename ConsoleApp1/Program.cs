@@ -1,2 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World! From Alex");
+
+greetingsMessage("Hello!!!!");
+
+static string greetingsMessage(string greetingsMessage) => greetingsMessage;
